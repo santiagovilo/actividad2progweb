@@ -1,0 +1,62 @@
+/*Alumno: Santiago Viloria, CID: 30.139.486, Seccion: N1013*/
+/*Establecemos el estilo para el cuerpo del documento*/
+body { 
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+}
+/*Establecemos el estilo para los encabezados de nivel 1*/
+h1 {
+	text-align: center;
+}
+/*Establecemos el estilo para los formularios*/
+form {
+	width: 400px;
+	margin: auto;
+	background-color: #fff;
+	padding: 20px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+/*Establecemos el estilo para las etiquetas de los elementos del formulario*/
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+/*Establecemos el estilo para los campos de entrada de texto, los campos de entrada numerica y los elementos select*/
+input[type="text"],
+input[type="number"],
+select {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+/*Establecemos el estilo para el boton de envio*/
+input[type="submit"] {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+/*Establecemos el estilo para el boton de envio cuando se pasa el cursor sobre el*/
+input[type="submit"]:hover {
+	background-color: #3e8e41;
+}
+/*Establecemos el estilo para el boton de envio de tipo "submit"*/
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #305f15;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+/*Establecemos el estilo para el boton de envio cuando se pasa el cursor sobre el*/  
+  button[type="submit"]:hover {
+    background-color: #84e777;
+  }
